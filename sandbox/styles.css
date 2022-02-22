@@ -1,0 +1,74 @@
+/*go to left to right*/
+/* to make it center between evenly */
+/*to make the login in center*/
+/*colomn flex-direction: column;*/
+
+body {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: bisque;
+}
+
+p {
+  color: brown;
+}
+
+p {
+  color: rgb(66, 162, 149);
+}
+
+/*# is for ID not for class , specificity*/
+.general-text {
+  color: rgb(55, 0, 128);
+}
+
+#specific-text {
+  color: springgreen;
+}
+
+.containers {
+  display: flex;
+  position: relative;
+  height: 300px;
+  width: 600px;
+  margin: 50px 0px;
+  background-color: dimgrey;
+}
+
+.surrounding-div {
+  height: 50px;
+  width: 50px;
+  background-color: turquoise;
+}
+/*fixed or relative negative direction*/
+
+#position-div {
+  position: sticky;
+  top: 10px;
+  left: 300px;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(115, 53, 167);
+}
+
+#content-box{
+  box-sizing: content-box;
+  background-color: cornflowerblue;
+  height: 100px;
+  width: 100px;
+  margin:50px;
+  padding: 10px;
+
+  #content-box{
+    box-sizing: content-box;
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 100px;
+    margin:50px;
+    padding: 10px;
+  }
